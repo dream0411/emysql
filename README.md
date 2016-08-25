@@ -1,4 +1,4 @@
-# emysql - export mysql
+emysql - export mysql
 ---
 
 emysql can connect to mysql server, then use "show tables", "show create table xxx" to export structure of tables, to avoid no enought permission for mysqldump.
@@ -17,4 +17,4 @@ emysql -d 'user:passwd@tcp(127.0.0.1:3306)/gewara?charset=%s&loc=Local' -f 'db.s
 
 ## Something else
 
-If you don't want write password in command line, just "go get" source file and put your connection string into main.go, compile and run.
+If you don't want to write the password in command line, just "go get" source file and put your connection string into main.go, then compile and run.
